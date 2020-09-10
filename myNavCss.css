@@ -5,7 +5,7 @@ li{
    
 
 }
- .linkNav p{
+ .linkNav .item{
      font-weight: bold;
      font-size: 30px;
      color:coral;
