@@ -2,13 +2,17 @@
 
 
 li{
-    list-style-type: none; 
 
 }
-a{
-    text-decoration:none;
+ .linkNav .item{
+     font-weight: bold;
+     font-size: 30px;
+     color:coral;
+ }
+.linkNav .link-item .link {
+   text-decoration:none;
     color:rgb(29, 27, 27);
-    font-weight: bold;
+    font-weight: bold;   
 }
 
 /* image */
@@ -27,7 +31,7 @@ a{
 
 }
 /* Text description */
-.des{
+.linkNav .link-item .link .des{
     /* text-align: center; */
     margin: 2px -16px 0 25px;
     padding: 0 21px 0 21px;
@@ -37,7 +41,7 @@ a{
 
 }
 /* Li tag under navigation */
-.linkNav  .link-item li{
+.linkNav  .link-item .link li{
     /* background: rgba(217, 146, 238, 0.829); */
     /* padding-left: 20px; */
     width: 170px;
@@ -47,12 +51,13 @@ a{
     border-radius:79px;
     /* list-style: none; */
     line-height: 17px;
+    list-style-type: none; 
     /* background: rgba(239, 209, 248, 0.829); */
 
 }
 
 /* Hover style of LI tag under navigation */
-.linkNav  .link-item li:hover{
+.linkNav  .link-item .link li:hover{
     /*  basal*/
     background: rgb(176 121 236 / 82%);
     cursor: pointer;
@@ -77,6 +82,3 @@ a{
     to {-webkit-transform: rotate(360deg);}
 
 }
-
-
-
