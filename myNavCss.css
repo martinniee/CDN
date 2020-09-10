@@ -2,7 +2,6 @@
 
 
 li{
-   
 
 }
  .linkNav .item{
@@ -42,7 +41,7 @@ li{
 
 }
 /* Li tag under navigation */
-.linkNav  .link-item 。link li{
+.linkNav  .link-item .link li{
     /* background: rgba(217, 146, 238, 0.829); */
     /* padding-left: 20px; */
     width: 170px;
@@ -83,6 +82,3 @@ li{
     to {-webkit-transform: rotate(360deg);}
 
 }
-
-
-
