@@ -5,6 +5,14 @@ li{
    
 
 }
+.linkNav p{
+  font-weight: bold;
+  font-size: 30px;
+ color:coral;
+
+	
+	
+}
 .linkNav .link-item .link {
    text-decoration:none;
     color:rgb(29, 27, 27);
