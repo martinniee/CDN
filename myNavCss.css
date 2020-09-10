@@ -1,0 +1,82 @@
+/* reset style*/
+
+
+li{
+    list-style-type: none; 
+
+}
+a{
+    text-decoration:none;
+    color:rgb(29, 27, 27);
+    font-weight: bold;
+}
+
+/* image */
+.linkNav .link-item .link img{
+    height: 130px;
+    width: 130px;
+    border-radius: 90px;
+    border-style: none;
+    float: left;
+	margin: 0 0 0 46px;
+	padding: 4px;
+	width: 70px;
+	height: 70px;
+    transition: all 0.3s;
+    
+
+}
+/* Text description */
+.des{
+    /* text-align: center; */
+    margin: 2px -16px 0 25px;
+    padding: 0 21px 0 21px;
+    /* border: solid rgb(119, 243, 138) 2px; */
+    float: left;
+    width: 102px;
+
+}
+/* Li tag under navigation */
+.linkNav  .link-item li{
+    /* background: rgba(217, 146, 238, 0.829); */
+    /* padding-left: 20px; */
+    width: 170px;
+    height: 150px;
+    margin: 40px 10px; 
+    float: left;
+    border-radius:79px;
+    /* list-style: none; */
+    line-height: 17px;
+    /* background: rgba(239, 209, 248, 0.829); */
+
+}
+
+/* Hover style of LI tag under navigation */
+.linkNav  .link-item li:hover{
+    /*  basal*/
+    background: rgb(176 121 236 / 82%);
+    cursor: pointer;
+    transition: all 1.0s;
+    /* extra */
+    -webkit-transform: rotate(360deg);
+
+    animation: rotation 3s linear infinite;
+
+    -moz-animation: rotation 3s linear infinite;
+
+    -webkit-animation: rotation 3s linear infinite;
+
+    -o-animation: rotation 3s linear infinite;
+
+}
+
+@-webkit-keyframes rotation{
+
+    from {-webkit-transform: rotate(0deg);}
+
+    to {-webkit-transform: rotate(360deg);}
+
+}
+
+
+
