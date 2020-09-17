@@ -4,54 +4,56 @@
 li{
 
 }
- .linkNav .item{
-     font-weight: bold;
-     font-size: 30px;
-     color:coral;
- }
+/* .link-item是一类导航ul
+ */
 .linkNav .link-item .link {
-   text-decoration:none;
-    color:rgb(29, 27, 27);
-    font-weight: bold;   
+   text-decoration:none !important;
+    color:rgb(29, 27, 27)!important;
+    font-weight: bold!important;   
 }
 
 /* image */
 .linkNav .link-item .link img{
-    height: 130px;
-    width: 130px;
-    border-radius: 90px;
-    border-style: none;
-    float: left;
-	margin: 0 0 0 46px;
-	padding: 4px;
-	width: 70px;
-	height: 70px;
-    transition: all 0.3s;
+    height: 130px!important;
+    width: 130px!important;
+    border-radius: 90px!important;
+    border-style: none!important;
+    float: left!important;
+	margin: 0 0 0 46px!important;
+	padding: 4px!important;
+	width: 70px!important;
+	height: 70px!important;
+    transition: all 0.3s!important;
     
 
 }
 /* Text description */
 .linkNav .link-item .link .des{
     /* text-align: center; */
-    margin: 2px -16px 0 25px;
-    padding: 0 21px 0 21px;
+    margin: 2px -16px 0 25px!important;
+    padding: 0 21px 0 21px!important;
     /* border: solid rgb(119, 243, 138) 2px; */
-    float: left;
-    width: 102px;
+    float: left!important;
+    width: 102px!important;
+    overflow: hidden!important;
+
 
 }
+
 /* Li tag under navigation */
 .linkNav  .link-item .link li{
     /* background: rgba(217, 146, 238, 0.829); */
     /* padding-left: 20px; */
-    width: 170px;
-    height: 150px;
-    margin: 40px 10px; 
-    float: left;
-    border-radius:79px;
+    width: 170px!important;
+    height: 150px!important;
+    margin: 40px 10px!important; 
+    float: left!important;
+    border-radius:20px!important;
     /* list-style: none; */
-    line-height: 17px;
-    list-style-type: none; 
+    line-height: 17px!important;
+    list-style-type: none!important; 
+    overflow: hidden!important;
+
     /* background: rgba(239, 209, 248, 0.829); */
 
 }
@@ -59,26 +61,26 @@ li{
 /* Hover style of LI tag under navigation */
 .linkNav  .link-item .link li:hover{
     /*  basal*/
-    background: rgb(176 121 236 / 82%);
-    cursor: pointer;
-    transition: all 1.0s;
+    background: rgb(176 121 236 / 82%)!important;
+    cursor: pointer!important;
+    transition: all 1.0s!important;
     /* extra */
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg)!important;
 
-    animation: rotation 3s linear infinite;
+    animation: rotation 3s linear infinite!important;
 
-    -moz-animation: rotation 3s linear infinite;
+    -moz-animation: rotation 3s linear infinite!important;
 
-    -webkit-animation: rotation 3s linear infinite;
+    -webkit-animation: rotation 3s linear infinite!important;
 
-    -o-animation: rotation 3s linear infinite;
+    -o-animation: rotation 3s linear infinite!important;
 
 }
 
-@-webkit-keyframes rotation{
+/* @-webkit-keyframes rotation{
 
     from {-webkit-transform: rotate(0deg);}
 
     to {-webkit-transform: rotate(360deg);}
 
-}
+} */
