@@ -4,6 +4,11 @@
 li{
 
 }
+ .linkNav .item{
+             font-weight: bold!important;
+             font-size: 30px!important;
+             color:coral!important;
+ }
 /* .link-item是一类导航ul
  */
 .linkNav .link-item .link {
