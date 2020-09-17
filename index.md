@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/martinniee/CDN@1.0/myNavCss.css">
-     <style>
-         .linkNav .item{
-             font-weight: bold;
-             font-size: 30px;
-             color:coral;
-         }
-     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/martinniee/CDN/myNavCss.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+
+   
     <title>链接</title>
 </head>
 <body>
@@ -130,5 +126,16 @@
     
     
 </body>
+
+
+<style>
+    .linkNav .item{
+        font-weight: bold!important;
+        font-size: 30px!important;
+        color:coral!important;
+    }
+</style>
+
+
 </html>
 
