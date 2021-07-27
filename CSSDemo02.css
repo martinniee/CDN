@@ -1,0 +1,82 @@
+  /* 重置样式 start */
+         *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(10, 10, 10);
+        }
+        ul > li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+        }
+        /* 重置样式 end */
+        #title{ 
+            
+            margin: 0px 5px;
+            font-weight: bold!;
+            font-size: 30px!;
+            color: rgb(255, 255, 255);
+        }
+        #nav{
+            /* 清除浮动的影响 */
+            overflow: hidden;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+        #nav > ul > li{
+            float: left;
+            background: rgb(241, 61, 61);
+            border-radius: 12px;
+            margin: 17px;
+            width: 200px;
+            height: 124px;
+        }
+        /* 图片样式 start */
+        #nav > ul > li:hover  img{
+            opacity: 0;
+             /* 转换速度 */
+            transition: opacity 0.6s ease;
+        }
+        #nav   img{
+            display: block;  /* 变为 块元素  */
+            width: 77px;  /* 设置高度宽度 用于撑起父元素 */
+            /* 用于图片的居中 */
+            margin-left: 66px;
+            margin-top: 21px; 
+            text-align: center;   /* 用于设置子元素文本居中 */
+            opacity: 0.7;
+            clip-path: polygon(0% 0,100% 52%,50% 77%,0 100%); /* 剪切图片为三角形*/
+        }
+        /* 图片样式 end */
+
+        /* 设置描述文字样式效果 start */
+        #des-mask{
+            position: relative;
+            top: -50px;
+            left: -1px;
+            /* opacity: 0; */
+            color: white;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            transition: transform 0.6s ease;
+
+      
+        }
+        #nav > ul > li:hover  #des-mask{
+            opacity: 1;
+            /* 增加元素的大小*/
+            -webkit-transform: scale(1.1, 1.1);
+            /* Safari */
+            -ms-transform: scale(1.1, 1.1);
+            /* IE 9 */
+            transform: scale(1.1, 1.1);
+        }
+        /* 设置描述文字样式效果 end */
